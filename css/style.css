@@ -65,7 +65,7 @@ header body{
 .links:hover{
     background-color: #d1d1d1;
     color: #2c72dc;
-    animation: fadeIn ease 1s;
+    animation: fadeIn ease 0.7s;
 
 }
 .button {
@@ -125,6 +125,8 @@ p {
     }
     h1 {
         color: #5a8ff1;
+        float:left;
+        text-align: left;
 }
 .sociallinks {
     display:inline-block;
