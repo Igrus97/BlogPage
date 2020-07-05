@@ -1,3 +1,12 @@
+#container {
+    min-height: 100vh;
+    margin-bottom:-75px;
+}
+#container:after {
+ content: "";
+ display: block;
+ height: 75px;   
+}
 #logo {
     max-width: 10%;
     max-height: 10%;
@@ -5,7 +14,7 @@
     width: auto;
     border-radius: 30%;
     margin-left: 10em;
-    opacity: 0.6;
+    opacity: 1;
     border:solid;
     border-color: #2c72dc;
 }
@@ -112,12 +121,17 @@ p {
     text-align: center;
     font-size: 1em;
 }
+footer {
+    background-color: #f7f7f8;
+    height: 75px;
+    text-align:center;
+    opacity: 0.8;
+}
 @media screen and (max-width:600px)
 {
     #logo {
         max-width:85%;
         border-radius: 30%;
-        opacity: 0.6;
         border:solid;
         border-color: #2c72dc;
         margin: 0 auto;
@@ -125,7 +139,6 @@ p {
     }
     h1 {
         color: #5a8ff1;
-        float:left;
         text-align: left;
 }
 .sociallinks {
