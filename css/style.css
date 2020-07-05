@@ -145,6 +145,11 @@ p {
     padding: 18px 1em 18px 1em;
     opacity: 0.4;
 }
+.links:hover{
+    background-color: #d1d1d1;
+    color: #2c72dc;
+    animation: fadeIn ease 1s;
+}
 .active {
     display: block;
     margin: 0 auto;
@@ -154,11 +159,7 @@ p {
     padding: 18px 1em 18px 1em;
     color: #f8f8f8;
 }
-.links:hover{
-    background-color: #d1d1d1;
-    color: #2c72dc;
-    animation: fadeIn ease 1s;
-}
+
 .button {
     border: none;
     color: rgb(69, 60, 196);
@@ -167,7 +168,7 @@ p {
     text-decoration: none;
     display: block;
     font-size: 1em;
-    margin: 1px 1em 1px 1em;
+    margin: 1px 6em 1px 6em;
     transition-duration: 0.3s;
     cursor: pointer;
   }
