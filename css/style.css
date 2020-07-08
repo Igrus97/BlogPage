@@ -10,7 +10,15 @@ header {
     background-position: top;
     color: #646400;
 }
-
+#logo {
+  height: 100px;
+  width:100px;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+#logo:hover {
+  opacity: 0.7;
+}
 .topnav {
   overflow: hidden;
   background-color:#CD0074;
@@ -50,13 +58,53 @@ a {
   display: none;
 }
 
-h1 {
+h1, h2, h3{
   text-shadow: 2px 2px 5px #85004B;
   text-align: center;
+  text-transform: uppercase;
+  font-family: "Comic Sans MS", "Roboto", "Times New Roman";
 }
-footer {
-  background-color: #579af1;
-}
+.column {
+  float: left;
+  width: 33.33%;
+  }
+  .row {
+    background-color: #bebdbd;
+  }
+  .row:after {
+    content: "";
+    display: flex;
+    clear: both;
+  }
+  p {
+    font-family: "Roboto", "Times New Roman", "Courier New";
+    font-size: 20px;
+  }
+  details{
+    position: relative;
+  }
+  details > summary {
+    padding: 4px;
+    width: 100%;
+    border: none;
+    background-color: #85004B;
+    box-shadow: 1px 1px 2px #6949D7;
+    cursor: pointer;
+  }
+  details > p {
+    padding: 4px;
+    margin: 0 auto;
+    box-shadow: 1px 1px 2px #6949D7;
+  }
+  footer {
+  background-color: #6949D7	;
+  color:#1F0772	;
+  position: sticky;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  }
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
