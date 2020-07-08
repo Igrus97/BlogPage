@@ -6,10 +6,9 @@ header {
     background: -webkit- linear-gradient(#e2e616, #CD0074);
     background: -moz- linear-gradient(#e2e616, #CD0074);
     background: -o- linear-gradient(#e2e616, #CD0074);
-
     background-position: top;
     color: #646400;
-}
+    }
 #logo {
   height: 100px;
   width:100px;
@@ -102,7 +101,7 @@ h1, h2, h3{
   position: sticky;
   left: 0;
   bottom: 0;
-  width: 100%;
+  max-width: 100%;
   text-align: center;
   }
 @media screen and (max-width: 600px) {
