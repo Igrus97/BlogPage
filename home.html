@@ -4,55 +4,68 @@
     <meta charset= "UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name = "description" content = "The personal page of Igor Bogodukh">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css" id="light-mode">
+    <script src="https://kit.fontawesome.com/83ba52fba0.js" crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/code.js"></script>
-    <title>Home page</title>
+    <title>Главная страница</title>
 </head>
 <body>
-    <div id="container">
     <header>
-        <a href="home.html" class="lang"><img src=img/russia.jpg alt="russian"></a>
-        <a href="home.html" class="lang"><img src=img/eng.jpg alt="english"></a>
-        <h1><img src="img/me.jpg" id="logo" alt="logo">Блог Игоря Богодуха</h1>
-        <nav>
-            <a href= "home.html" class = "active links">Домой</a>
-            <a href= "about.html" class ="links">Обо мне</a>
-            <a href= "projects.html" class ="links">Проекты</a>
-            <a href= "photo.html" class ="links">Фото</a>
-            <a href= "contact.html" class ="links">Контакт</a>
-            <a href= "https://vk.com/id287120541"><img src=img/vk.jpg class="sociallinks" alt="vk personal page"></a>
-            <a href= "https://facebook.com/IgorBogodukh"><img src=img/facebook.jpg class="sociallinks" alt= "fb personal page"></a>
-            <a href= "https://www.instagram.com/piekny_chlopak/"><img src=img/insta.jpg class="sociallinks" alt="instagram personal page"></a>
-            <a href= "https://github.com/Igrus97/"><img src=img/github.jpg class="sociallinks" alt="github repository"></a>
-            <a href= "mailto:igor.bogodukh@gmail.com"><img src=img/mail.jpg class="sociallinks"></a>
+        <a href="#" class="lang"></a><img src="img/rus.png" alt="ru"></a>
+        <a href="#" class="lang"><img src="img/us.png" alt="eng"></a>
+        <a href="#" class="lang"><img src="img/pol.png" alt="pol"></a>
+        <h1>Блог Игоря Богодуха</h1>
+        <nav class="topnav" id="myTopnav">
+            <a href= "home.html" class = "active">Домой</a>
+            <a href= "about.html">Обо мне</a></li>
+            <a href= "projects.html">Проекты</a>
+            <a href= "contact.html">Контакт</a>
+            <a class="icon" onclick="navbar()">
+                <i class="fa fa-bars"></i>
         </nav>
     </header>
-    <main>
-        <button class="button button1">Light</button>
-        <button class="button button2">Dark</button>
+    <article>
         <h2 class="articles">Добро пожаловать!</h2>
-        <p>Меня зовут Игорь, мне 23 года, и я начинающий Web-разработчик.<br>
-             Это мой первый полноценный веб-сайт, где я буду показывать свои проекты.<br> 
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Cras sodales vulputate accumsan.
+             Etiam at velit non erat pulvinar porttitor. 
+             Vivamus eu interdum massa, quis pharetra lectus. 
+             Fusce posuere urna et congue eleifend. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet lobortis mi, non porta turpis. Praesent mi ex, condimentum quis dictum quis, interdum in arcu. Donec volutpat diam eu velit hendrerit tempus. Donec non risus tellus. Vestibulum ac metus faucibus, convallis nulla vitae, feugiat nisl. Pellentesque in libero dapibus, sagittis tortor sed, tristique urna. 
+            Sed dapibus urna mollis orci tristique luctus.
         </p>
-    </main>
+    <article>
     <aside>
-        <p>тут будет календарь</p>
+        <p>Sed lobortis arcu sed arcu ornare, et consequat ipsum cursus. 
+            Duis maximus arcu non euismod efficitur. Interdum et malesuada 
+            fames ac ante ipsum primis in faucibus. Pellentesque sagittis v
+            olutpat nisi egestas commodo. Quisque varius scelerisque libero in lobortis. Sed eu pretium mi, id molestie lectus. Donec sagittis condimentum magna, at aliquam nibh ullamcorper suscipit. Etiam gravida augue in nisl pharetra finibus. Ut vel laoreet quam. Vestibulum faucibus sapien sem, eget euismod eros pulvinar in. Duis nec porta metus. Aliquam in blandit nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum e
+            gestas placerat sapien, sed consectetur tortor facilisis vel.
+        </p>
     </aside>
     <section>
         <article>
-            <p>Доработать</p>
+            <p>Maecenas lobortis quis ligula vitae luctus. Curabitur vulputate enim sed neque facilisis dictum. Morbi vel purus ac sapien tincidunt egestas. Suspendisse vitae elit id massa cursus mollis id eu est. Curabitur sem lorem, dignissim et laoreet non, molestie quis neque. Fusce hendrerit, tellus non tempor interdum, sapien est varius sem, vel dapibus ante augue ut urna. Nullam tortor ipsum, rhoncus non efficitur sit amet, pellentesque non elit. Sed semper molestie turpis, sed finibus dui elementum id. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla lacinia nibh vel augue porta vehicula. Duis sed turpis egestas, facilisis leo tincidunt, porttitor turpis. Vestibulum molestie maximus metus, ut lobortis ipsum ornare id. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas sit amet nunc metus. Phasellus consectetur lorem tempor imperdiet dignissim.
+            </p>
          </article>
     </section>
     <aside>
-        <p>Доработать</p>
+        <p>Curabitur consequat placerat massa, nec convallis leo finibus at. Morbi vitae neque eget augue interdum consectetur at a sapien. Proin sit amet ante dictum, lacinia augue in, bibendum velit. Morbi vitae nisl elit. Duis pharetra ligula ut augue gravida maximus. Aliquam dictum diam elit, et consequat nibh faucibus non. Sed turpis purus, venenatis consectetur erat congue, tempus laoreet felis. In at dolor ut ligula mollis mollis. Fusce non lectus ac nibh fringilla bibendum. In a tellus in odio tempor rhoncus sit amet non lorem.
+        </p>
     </aside>
     <details>
         <summary>Дополнительно:</summary>
-        <p>Доработать</p>
+        <p>Proin quis facilisis nulla, vitae molestie urna. Aliquam in magna mi. Mauris erat ipsum, sodales ac tempor vel, vestibulum sit amet mi. Curabitur dignissim magna vel purus congue, eu lacinia metus tincidunt. Nam posuere viverra semper. Cras volutpat pulvinar mi id dapibus. Quisque tempus euismod tortor, sed interdum augue scelerisque sed. Curabitur fringilla lectus magna, sit amet porttitor eros tincidunt at. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Ut neque dolor, tempus sit amet congue non, vestibulum vel tortor. Phasellus ac finibus lorem, id commodo velit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed eleifend, dui nec placerat vulputate, massa nibh volutpat risus, et imperdiet urna risus ut nisi. Nulla viverra dolor nec mauris aliquet, sit amet imperdiet massa aliquam.
+        </p>
      </details>
-    </div>
     <footer>
         <p>Эта страница была создана Игорем Богодухом.</p>
+        <a href= "https://vk.com/id287120541"><i class="fab fa-vk"></i></a>
+        <a href= "https://facebook.com/IgorBogodukh"><i class="fab fa-facebook-f"></i></a>
+        <a href= "https://www.instagram.com/piekny_chlopak/"><i class="fab fa-instagram"></i></a>
+        <a href= "https://github.com/Igrus97/"><i class="fab fa-github"></i></a>
+        <a href= "https://bitbucket.org/Igrus97/"><i class="fab fa-bitbucket"></i></a>
+        <a href= "mailto:igor.bogodukh@gmail.com"><i class="far fa-envelope"></i></a>
     </footer>
 </body>
 </html>
